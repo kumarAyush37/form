@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+ <style>
+     .s{
+         transition: all linear mymove;
+         @keyframes mymove {
+  0%   {top: 0px; background: red; width: 100px;}
+  100% {top: 200px; background: yellow; width: 300px;}
+} ;
+     }
+ </style>
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="index.html">Ayush Tech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sigin <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log.html">Login</a>
+                    </li>
+                   
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid" class="s">
+        <h1 class="text-capitalize text-center pt-4 ">Sign In</h1>
+        <hr class="w-25 mx-auto">
+
+    <div class="container mt2 ">
+       
+              <div class="w-50 mx-auto mb-5">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                      <label for="email">Enter Name:</label>
+                      <input type="text" class="form-control" placeholder="Enter Name" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Enter Email:</label>
+                      <input type="email" class="form-control" placeholder="Enter Email-id" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Enter mobile Number:</label>
+                        <input type="email" class="form-control" placeholder="Enter Mobile Number:" id="pwd">
+                      </div>
+                     
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Re-Enter</label>
+                            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                          </div>
+                    <div class="form-group form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Remember me
+                      </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+         
+        </div>
+    </div>
+</div>
+<footer class="bg-dark text-white text-center ">
+    <p1>@copyright AyushTech.com 2021</p1>
+</footer>
+</body>
+
+</html>
